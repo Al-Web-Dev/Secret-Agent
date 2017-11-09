@@ -3,6 +3,7 @@ body {
     margin: 0;
     background-color: black;
     font-size: 18px;
+
 }
 
 div {
@@ -25,6 +26,7 @@ header {
     flex-wrap: wrap;
     height: 69px;
     width: 100%;
+    margin: 0;
 
 
 }
@@ -34,8 +36,6 @@ header {
     color: white;
     display: flex;
     height: 35px;
-
-    
     margin: 1.5rem;
 }
 
@@ -92,27 +92,47 @@ nav {
 .products {
     border: 4px solid black;
     margin: 3rem auto 0 auto;
-
-    justify-content: ;
-    display: ;
+    height: 261px;
     width: 30%;
 }
 
 .text-products {
     background-color: black;
     color: white;
-    
+    font-size: 1rem;
+    height: 39px;
+    padding: 0.5rem 0 0.5rem 0;
+    text-align: center;      
 }
 
 .products img {
     height: 9rem;
-    padding: 2rem 0 2rem 0;
+    padding: 2rem 0 1.6rem 0;
     margin-left: 70px;
+}
 
-    
-    
+.locations-hours {
+    background-color: white;
+    height: 300px;
+    display: flex;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;  
 
 }
+
+.text-boxs {
+    color: white;
+    width: 35%;
+    height: 55px;
+    align-items: center;
+    margin-top: 3rem;
+    background-color: black;
+    padding-left: 2rem;
+}
+
+
+
 
 
 
